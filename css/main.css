@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #62B7E7;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{width: 70%;margin: auto;border-radius: 20px;outline: 10px solid rgb(239 239 239 / 38%);background: #EFEFEF;padding: 20px;display: flex;flex-direction: column;gap: 1em;max-width: 900px;margin-bottom: 10%;}
+
+.logo-container{width: 50%;display: flex;justify-content: center;margin: 3em auto;}
+
+.logo-container img{
+    width: 200px;
+}
+
+.content{
+
+width: 80%;
+
+margin: auto;
+
+background: #FFF;
+
+border-radius: 20px;
+
+padding: 1.3em;
+
+display: flex;
+
+flex-direction: column;
+
+align-items: center;
+
+gap: 1em;
+}
+
+.content h2{
+
+text-align: center;
+}
+
+.content p{
+
+color: #696969;
+}
+
+#number-input{
+    padding: 0.4em 3em;
+    border-radius: 10px;
+    outline: 1px solid #97C550;
+    border: none;
+    text-align: center;
+}
+#exec{cursor: pointer; border: none;padding: 0.6em 3em;background: #97C550;color: white;border-radius: 20px;}
+#exec:hover{
+    background: #7ba041;
+}
+#output{
+    color: #97C550;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.dev{display: flex;align-items: center;justify-content: center;flex-direction: column;}
+
+.dev .links{font-size: 1.6em;color: #444;}
+.dev .links a{
+    text-decoration: none;
+    color: #444;
+}
+.dev .links a:hover{
+    color: #97c550;
+}
+.dev span{
+    color: #444;
+}
